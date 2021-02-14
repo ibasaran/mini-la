@@ -1,9 +1,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>mini-la</groupId>
+  
+  <parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>2.4.2</version>
+	<relativePath/> <!-- lookup parent from repository -->
+  </parent>
+  
+  
+  
+  <groupId>com.minila</groupId>
   <artifactId>minila</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>Mini LA</name>
   <description>Prototip for la</description>
+  
+  <modules>
+  	<module>miniapi</module>
+  </modules>
+  
 </project>
