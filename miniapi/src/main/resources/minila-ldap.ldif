@@ -99,7 +99,6 @@ objectclass: top
 objectclass: person
 objectclass: organizationalPerson
 objectclass: inetOrgPerson
-objectclass: benimClass
 cn: Space Cadet
 sn: Cadet
 uid: ismail
